@@ -1,0 +1,38 @@
+
+body {
+	background-color: #FFDAB9;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.header{
+	background-color: #CD5C5C;
+	height: 100px;
+	width: 100%;
+
+}
+
+.content {
+	background-color: #00FA9A;
+	height: 500px;
+	width: 100%;
+}
+.footer {
+	background-color: #20B2AA;
+	height: 100px;
+	width: 100%;
+}
+
+.aside {
+	background-color: #FF00FF;
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+	
+}
